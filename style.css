@@ -1,0 +1,72 @@
+/***** Style ********/
+
+body {
+    background: #FFF8F6;
+}
+
+.row {
+    position: relative;
+    height: 80%;
+}
+
+.row div {
+    padding: 10px;
+    padding-bottom: 55px;
+    border-radius: 7px;
+    display: block;
+    border: 1px solid #A9A9A9;
+    max-height: 100%;
+    min-height: 600px;
+    position: relative;
+    background: black!important;
+}
+
+pre {
+    width: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: black;
+    color: white;
+}
+
+.row button {
+    position: absolute;
+    border: 1px solid black;
+    display: block;
+    right: 30px;
+    bottom: 10px;
+    padding: 10px;
+}
+
+#serialize {
+    margin-left: 2em;
+}
+
+#go-top {
+    position: fixed;
+    top: 10%;
+    right: 15%;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-image: url("go-top.ico");
+    background-size: cover;
+}
+
+.not-selectable {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.copyable {
+    background-image: url('copy.png');
+    background-size: cover;
+    display: inline-block;
+    height: 20px;
+    width:20px;
+    margin-left: 10px;
+    filter: alpha(opacity=2);
+}
